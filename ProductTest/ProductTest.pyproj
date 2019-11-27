@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c53995ab-0bfe-4f0e-9306-860eed0e2f3e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProductTest.py</StartupFile>
+    <StartupFile>RS485_dmx512.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="cl_200a.py" />
     <Compile Include="hid_dmx512.py" />
     <Compile Include="ProductTest.py" />
+    <Compile Include="RS485_dmx512.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="亮度按规定时间递增.py">
       <SubType>Code</SubType>
     </Compile>
